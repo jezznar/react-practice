@@ -1,0 +1,27 @@
+.photostats {
+    text-align: center;
+}
+
+.photostats-item {
+    width: 100%;
+    margin: 20px;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.photostats-details {
+    position: relative;
+    background-color: gray;
+    padding: 15px;
+    color: white;
+}
+
+.photostats-details span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.photostats-img {
+    position: relative;
+    padding: 80px;
+    background-color: blue;
+}

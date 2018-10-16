@@ -1,0 +1,9 @@
+.card {
+    margin: 10px;
+    padding: 50px 10px;
+    text-align: left;
+}
+
+.incomeStats .card-title{
+    font-size: 24px;
+}
