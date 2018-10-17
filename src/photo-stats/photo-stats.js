@@ -4,7 +4,6 @@ import './photo-stats.css';
 class PhotoStats extends Component {
     constructor(props) {
         super(props);
-        console.log(props);
         this.state = {
             photoStats: this.props.photoStats
         }

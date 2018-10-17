@@ -29,20 +29,19 @@ class App extends Component {
               comments: 5200
             }
           ]
+        },
+        traffic: {
+          location: "Paris",
+          temperature: 18,
+          newVisitors: 1500,
+          bounceRate: 0.5,
+          searches: 0.28,
+          bandwidth: 140.5
         }
       }
      }
 
-    //this.showMoneyStats = this.showMoneyStats.bind(this);
   }
-
-  // showMoneyStats = () => {
-  //   const moneyStats = this.state.stats.map((moneyStats) =>
-  //     <MoneyStats moneyStats={moneyStats} key={moneyStats.serverName} />
-  //   );
-
-  //   return (moneyStats);
-  // }
 
   render() {
     return (
@@ -51,7 +50,7 @@ class App extends Component {
           <div className="container-fluid">
             <div className="row">
               <MoneyStats moneyStats={this.state.stats.money} />
-              <TrafficStats />
+              <TrafficStats trafficStats={this.state.stats.traffic} />
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import PhotoStats from '../photo-stats/photo-stats';
 class MoneyStats extends Component {
     render() {
         return (
-            <div className="col-md-10">
+            <div className="col-md-9">
                 <IncomeStats incomeStats={this.props.moneyStats.income} />
                 <PhotoStats photoStats={this.props.moneyStats.photos} />
             </div>
